@@ -2,6 +2,7 @@ from shared.classes.AsciiGenerator import AsciiGenerator
 from pyfiglet import FigletFont, figlet_format
 
 
+
 class PyfigletGenerator(AsciiGenerator):
 
     @staticmethod

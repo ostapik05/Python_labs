@@ -18,11 +18,13 @@ def ensure_file_exists(file_path):
 
 
 def write_to_file(data, file_path):
+    ensure_file_exists(file_path)
     try:
         with open(file_path, "w", encoding="utf-8") as file:
             file.write(data)
     except Exception as e:
         raise e(f"Error occurred while writing the file: {e}")
+
 
 
 def load_from_file(file_path):

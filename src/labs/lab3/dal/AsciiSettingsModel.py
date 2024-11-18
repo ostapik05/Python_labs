@@ -1,6 +1,6 @@
 from shared.classes.DataAccess import DataAccess
 
-# from shared.interfaces.SettingsInterface import SettingsInterface
+from shared.interfaces.SettingsInterface import SettingsInterface
 
 
 class AsciiSettingsModel:

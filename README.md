@@ -4,18 +4,6 @@ This is a Python-based console calculator that maintaining memory functionality,
 
 ## Features
 ### Basic Operations: 
-Supports addition (+), subtraction (-), multiplication (*), division (/), exponentiation (^), square root (√ or sqrt), and modulus (%).
-### Memory Functions:
-MS: Store the most recent result in memory.
-M+: Add the most recent result to the current memory.
-MC: Clear the memory.
-MR: Recall the value stored in memory for use in calculations.
-### Error Handling and Logging: 
-Logs errors (such as division by zero or invalid input) into a designated log file.
-### Customizable Decimal Precision: 
-Allows users to set the number of decimal places for the displayed result.
-### Calculation History: 
-Maintains a history of successful calculations, which can be displayed at any time.
-
+Supports addition (+), subtraction (-), multiplication (*), division (/), exponentiation (^), square root (√ or sqrt), and modulus (%)
 ## How to start
 Change variables in init.py if needed and run runner.py

@@ -1,1 +1,1 @@
-settings_path = "./data/labs/lab3/settings/settings.json"
+settings_path = "./data/lab3/settings/settings.json"

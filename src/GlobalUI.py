@@ -8,7 +8,6 @@ from labs.lab4.Runner import Runner
 
 class GlobalUI:
     def __init__(self):
-
         self.build_menu()
 
     def menu(self):
@@ -19,13 +18,14 @@ class GlobalUI:
     def build_menu(self):
         self._menu = (
             MenuBuilder()
-            .set_title("Welcome to specialized programming languages!")
+            .set_title("Welcome")
             .set_warning("Wrong input!")
             .set_input_text("Choose lab:")
             .add_option("1", "1. Function calculator\n", self.__run_lab, number=1)
             .add_option("2", "2. OOP calculator\n", self.__run_lab, number=2)
             .add_option("3", "3. ASCII pyfiglet arts\n", self.__run_lab, number=3)
             .add_option("4", "4. ASCII custom arts\n", self.__run_lab, number=4)
+            .add_option("5", "5. ASCII 3D shape\n", self.__run_lab, number=5)
             .add_stop_options(["e", "0", "exit", "Exit"], "\n0.Exit(e)")
             .build()
         )

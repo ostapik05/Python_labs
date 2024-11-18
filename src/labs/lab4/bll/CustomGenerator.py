@@ -4,8 +4,8 @@ from labs.lab4.bll.base_font import base_font
 
 class CustomGenerator(AsciiGenerator):
     name_font = base_font.copy()
-    name_font["replace_string"] = "oleh"
-    fonts = {"cap": base_font, "oleh_cap": name_font}
+    name_font["replace_string"] = "ostap"
+    fonts = {"cap": base_font, "os_cap": name_font}
 
     @classmethod
     def generate(cls, data, font="cap_font", width=80):

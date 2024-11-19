@@ -3,7 +3,6 @@
 __pycache__/*
 template
 *.pyc
-lab_template
 tasks.md
 *copy.json
 .vscode

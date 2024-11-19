@@ -16,7 +16,7 @@ class Runner(RunnerInterface):
     def run():
         print("Running unit tests...")
         # Визначаємо шлях до тестів
-        test_dir = os.path.join(os.getcwd(), "src", "labs", "lab1", "tests")
+        test_dir = os.path.join(os.getcwd(), "src", "labs", "lab6", "tests")
         test_loader = unittest.TestLoader()
         test_suite = test_loader.discover(start_dir=test_dir, pattern="test_*.py")
 

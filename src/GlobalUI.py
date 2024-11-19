@@ -26,6 +26,7 @@ class GlobalUI:
             .add_option("3", "3. ASCII pyfiglet arts\n", self.__run_lab, number=3)
             .add_option("4", "4. ASCII custom arts\n", self.__run_lab, number=4)
             .add_option("5", "5. ASCII 3D shape\n", self.__run_lab, number=5)
+            .add_option("6", "6. Unit tests\n", self.__run_lab, number=6)
             .add_stop_options(["e", "0", "exit", "Exit"], "\n0.Exit(e)")
             .build()
         )
